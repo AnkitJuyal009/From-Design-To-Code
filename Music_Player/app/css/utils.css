@@ -1,0 +1,89 @@
+
+:root {
+    /*colors*/
+    --maincolor : #1A1B1E;
+    --footercolor : #F39237;
+    --fontcolor : #FFFFFF;
+
+    /*fonts*/
+    --raleway : 'Raleway',sans-serif;
+    --signika : 'Signika', sans-serif;
+}
+
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--maincolor);
+  color: var(--fontcolor);
+  font-family: var(--signika);
+}
+
+img {
+  max-width: 100%;
+  width: 20%;
+}
+
+img + img {
+  margin-left: 2rem;
+}
+/* 
+aside {
+    width: 55rem;
+} */
+
+i {
+   font-size: 1.1rem;
+   cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: var(--fontcolor);
+}
+
+h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0 2rem;
+}
+
+nav {
+  margin-bottom: 8rem;
+}
+
+/* p {
+  margin-top: 0;
+  margin-bottom: 0;
+} */
+
+button + button {
+  margin-left: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  padding: 1.5rem;
+} 
+
+.img-avatar {
+  width: 25%;
+}

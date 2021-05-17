@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Link css-->
+    <link rel="stylesheet" href="./app/css/utils.css">
+    <link rel="stylesheet" href="./app/css/style.css">
+
+    <!--Link Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;500&display=swap" rel="stylesheet">
+
+    <!--link normalize-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!--Link FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="flex">
+        <!--LeftSidebar-->
+        <aside class="leftSidebar">
+            <div class="container">
+                <img class="leftSidebar__logo" src="./images/logo.png" alt="logo">
+                <nav>
+                    <ul>
+                        <div class="leftSidebar__link">
+                            <i class="far fa-compass"></i>
+                            <li><a href="#">Discovery</a></li>
+                        </div>
+                        <div class="leftSidebar__link">
+                            <i class="fas fa-shopping-cart"></i>
+                            <li><a href="#">Shop</a></li>
+                        </div>
+                        <div class="leftSidebar__link">
+                            <i class="fas fa-heart"></i>
+                            <li><a href="#">Favourite</a></li>
+                        </div>
+                        <div class="leftSidebar__link">
+                            <i class="fas fa-search"></i>
+                            <li><a href="#">Search</a></li>
+                        </div>
+                        <div class="leftSidebar__link">
+                            <i class="fas fa-gem"></i>
+                            <li><a href="#">Premium</a></li>
+                        </div>
+                    </ul>
+                </nav>
+                <div class="leftSidebar__userInfo">
+                    <img class="img-avatar" src="./images/avatar.png" alt="avatar boy">
+                    <p>Ankit Juyal</p>
+
+                    <a href="/">
+                        <p>LOGOUT</p>
+                    </a>
+                </div>
+            </div>
+
+        </aside>
+
+        <!--Main-->
+        <main class="main">
+            <div class="container">
+                <div class="ad-container">
+                    <div class="ad-container__info">
+                        <h2>Upgrade your plan</h2>
+                        <p>70% discount on 1 year subscription</p>
+                        <button class="btn-goPremium">Go Premium</button>
+                        <button class="btn-tryForFree">Try For Free</button>
+                    </div>
+                    <img class="ad-container__image" src="./images/main.png" alt="main vector image">
+                </div>
+                <div class="songs-container">
+                    <h2>Explore</h2>
+                    <a class="songs-container__category" href="#">
+                        <p>Recently Played</p>
+                        <p>Latest Release</p>
+                        <p>Made For You</p>
+                    </a>
+
+                    <a href="songs-container__album">
+                        <img src="./images/album1.jpg" alt="album1">
+                        <img src="./images/album2.jpg" alt="album2">
+                        <img src="./images/album3.jpg" alt="album3">
+                        <img src="./images/album4.jpg" alt="album4">
+                    </a>
+                    <h2>Latest English</h2>
+                    <a href="songs-container__album">
+                        <img src="./images/album1.jpg" alt="album1">
+                        <img src="./images/album2.jpg" alt="album2">
+                        <img src="./images/album3.jpg" alt="album3">
+                        <img src="./images/album4.jpg" alt="album4">
+                    </a>
+                    <h2>Latest Hindi</h2>
+                    <a href="songs-container__album">
+                        <img src="./images/album1.jpg" alt="album1">
+                        <img src="./images/album2.jpg" alt="album2">
+                        <img src="./images/album3.jpg" alt="album3">
+                        <img src="./images/album4.jpg" alt="album4">
+                    </a>
+                </div>
+            </div>
+
+
+        </main>
+
+        <!--RightSidebar-->
+        <aside class="rightSidebar">
+            <div class="container">
+                <div class="rightSidebar__header">
+                    <h2>Friends Activity</h2>
+                    <i class="fas fa-user-plus"></i>
+                </div>
+                <div class="friendsActivity-container">
+                    <div class="friendsActivity-container__info">
+                        <img class="img-avatar" src="./images/avatar.png" alt="avatar boy">
+                        <div class="friendsActivity-container__UserInfo">
+                            <h5>Aman</h5>
+                            <p>Online 20hrs ago</p>
+                        </div>
+                    </div>
+                    <div class="friendsActivity-container__info">
+                        <img class="img-avatar" src="./images/avatar2.png" alt="avatar man">
+                        <div class="friendsActivity-container__UserInfo">
+                            <h5>Rexy</h5>
+                            <p>Online 18hrs ago</p>
+                        </div>
+                    </div>
+                    <div class="friendsActivity-container__info">
+                        <img class="img-avatar" src="./images/avatar3.png" alt="avatar spec man">
+                        <div class="friendsActivity-container__UserInfo">
+                            <h5>DeathMaker</h5>
+                            <p>Online 1hr ago</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </aside>
+
+    </div>
+    <!--Footer-->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__info">
+                <img class="img-playing" src="./images/album2.jpg" alt="album2">
+                <p>Just Chill</p>
+                <i class="fas fa-heart"></i>
+            </div>
+            <div class="controller-container">
+                <i class="fas fa-fast-forward fa-rotate-180"></i>
+                <i class="fas fa-pause-circle"></i>
+                <i class="fas fa-fast-forward"></i>
+            </div>
+
+        </div>
+        <div class="footer-timestamp">
+            <p>00:00</p>
+            <p>02:49</p>
+        </div>
+        <div class="grey-bar">
+            <div class="white-bar"></div>
+        </div>
+
+
+
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
+
+
+<!--<i class="fas fa-pause-circle"></i>
+<i class="fas fa-fast-forward"></i>
+<i class="fas fa-play"></i>-->
